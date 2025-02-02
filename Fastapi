@@ -4,3 +4,7 @@ run the fastapi file
 
 
  uvicorn test:app
+
+change fastapi port
+uvicorn test:app --host 127.0.0.1 --port 8001
+
